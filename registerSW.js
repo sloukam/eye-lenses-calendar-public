@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/eye-lenses-calendar-public/sw.js', { scope: '/eye-lenses-calendar-public/' })})}
